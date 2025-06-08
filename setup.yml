@@ -1,0 +1,6 @@
+- name: Deploy Maven Artifact
+  hosts: local
+  tasks:
+    - name: Display debug message
+      debug:
+        msg: "Helloowww 8th pgm"
